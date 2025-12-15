@@ -12,56 +12,83 @@
         
         <!-- Headline -->
         <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif-display text-gray-900 leading-[1.1] tracking-tight mb-6 max-w-5xl mx-auto">
-            Craft content <br class="hidden md:block" />
-            that wins 
+            Social strategy <br class="hidden md:block" />
+            that runs 
             <span class="inline-flex items-center align-middle mx-1 md:mx-2 relative -top-1 md:-top-2">
-                <svg width="60" height="60" viewBox="0 0 100 100" class="w-10 h-10 md:w-16 md:h-16 text-[#2A9D8F] animate-spin-slow" fill="currentColor">
+                <svg width="60" height="60" viewBox="0 0 100 100" class="w-10 h-10 md:w-16 md:h-16 animate-spin-slow" fill="currentColor" style="color: oklch(0.696 0.17 162.48)">
                     <!-- Stylized Asterisk/Flower -->
                     <path d="M50 0 L60 35 L95 25 L70 50 L95 75 L60 65 L50 100 L40 65 L5 75 L30 50 L5 25 L40 35 Z" />
                 </svg>
             </span>
-            search
+            itself
         </h1>
 
         <!-- Subheadline -->
         <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            AirOps powers your content strategy, creation, and performance, helping your brand get seen, cited, and celebrated.
+            Thinktank transforms social strategy into execution via AI agents that research, plan, and create content autonomously.
         </p>
 
         <!-- CTA -->
         <div class="mb-16">
-            <a href="#" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-gray-900 bg-brand-green hover:bg-brand-green-hover transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-                Book a Demo
+            <a href="#" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-gray-900 hover:bg-gray-800 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                Get Started Free
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </a>
         </div>
 
-        <!-- Video Player / Error State Recreation -->
-        <div class="w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-2xl bg-black aspect-video relative group cursor-pointer">
-            <!-- Volume Icon -->
-            <div class="absolute top-6 right-6 z-20 text-gray-400">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
-            </div>
-
-            <!-- Content -->
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
-                <!-- Play Button Circle -->
-                <div class="w-16 h-16 md:w-20 md:h-20 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-6 group-hover:bg-white/20 transition-all">
-                    <svg class="w-8 h-8 md:w-10 md:h-10 text-white fill-current ml-1" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z" />
-                    </svg>
+        <!-- Dashboard Preview -->
+        <div class="w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-2xl bg-white border border-gray-200 aspect-video relative">
+            <!-- Browser Chrome -->
+            <div class="bg-gray-100 border-b border-gray-200 px-4 py-3 flex items-center gap-2">
+                <div class="flex gap-1.5">
+                    <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-400"></div>
                 </div>
-
-                <!-- Error Message Text (Recreating the screenshot detail) -->
-                <h3 class="text-white text-xl md:text-2xl font-medium mb-2">We couldn't verify the security of your connection.</h3>
-                <p class="text-gray-400 text-sm md:text-base max-w-lg">
-                    Access to this content has been restricted. Contact your internet service provider for help.
-                </p>
+                <div class="flex-1 bg-white rounded px-3 py-1 text-xs text-gray-500 ml-2">
+                    app.thinktank.ai/dashboard
+                </div>
             </div>
-            
-            <!-- Progress Bar (Fake) -->
-            <div class="absolute bottom-0 left-0 right-0 h-1 bg-gray-800">
-                <div class="h-full w-1/3 bg-brand-green"></div>
+
+            <!-- Dashboard Content -->
+            <div class="p-8 bg-gradient-to-br from-gray-50 to-white h-full">
+                <div class="grid grid-cols-3 gap-4 mb-6">
+                    <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-100">
+                        <div class="text-xs text-gray-500 uppercase font-bold mb-1">Posts Scheduled</div>
+                        <div class="text-3xl font-bold text-gray-900">127</div>
+                        <div class="text-xs text-green-600 font-medium mt-1">+23% this week</div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-100">
+                        <div class="text-xs text-gray-500 uppercase font-bold mb-1">Engagement Rate</div>
+                        <div class="text-3xl font-bold text-gray-900">8.4%</div>
+                        <div class="text-xs text-green-600 font-medium mt-1">+2.1% this week</div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-100">
+                        <div class="text-xs text-gray-500 uppercase font-bold mb-1">AI Agents Active</div>
+                        <div class="text-3xl font-bold text-gray-900">5</div>
+                        <div class="text-xs text-gray-500 font-medium mt-1">Running 24/7</div>
+                    </div>
+                </div>
+                
+                <!-- Content Preview Cards -->
+                <div class="space-y-3">
+                    <div class="bg-white rounded-lg p-3 shadow-sm border border-gray-100 flex items-center gap-3">
+                        <div class="w-12 h-12 rounded bg-blue-100 flex-shrink-0"></div>
+                        <div class="flex-1 min-w-0">
+                            <div class="text-sm font-medium text-gray-900 truncate">LinkedIn post about AI trends...</div>
+                            <div class="text-xs text-gray-500">Scheduled for tomorrow at 9:00 AM</div>
+                        </div>
+                        <div class="text-xs font-bold text-green-600 bg-green-50 px-2 py-1 rounded">Ready</div>
+                    </div>
+                    <div class="bg-white rounded-lg p-3 shadow-sm border border-gray-100 flex items-center gap-3">
+                        <div class="w-12 h-12 rounded bg-purple-100 flex-shrink-0"></div>
+                        <div class="flex-1 min-w-0">
+                            <div class="text-sm font-medium text-gray-900 truncate">Twitter thread on social strategy...</div>
+                            <div class="text-xs text-gray-500">Agent is researching and drafting</div>
+                        </div>
+                        <div class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded">In Progress</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
