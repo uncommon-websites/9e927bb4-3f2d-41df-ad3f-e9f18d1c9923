@@ -1,11 +1,11 @@
 <section class="py-24 bg-white font-sans overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 mb-12 flex flex-col md:flex-row justify-between items-end">
         <div class="max-w-2xl">
-            <h2 class="text-4xl md:text-5xl font-serif-display text-gray-900 mb-6">The world's best marketers, leveling each other up.</h2>
+            <h2 class="text-4xl md:text-5xl font-serif-display text-gray-900 mb-6">Social media leaders sharing what works.</h2>
         </div>
         <div class="text-right">
-             <p class="text-xs text-gray-500 max-w-xs ml-auto mb-4">Our private slack community is free to operators at security, and here to turn visibility into conversions.</p>
-             <a href="#" class="text-xs font-bold border-b border-gray-300 pb-0.5 hover:border-gray-900 transition-colors">Join The Pros -></a>
+             <p class="text-xs text-gray-500 max-w-xs ml-auto mb-4">Join our community of social media managers and marketing leaders who are scaling their content with AI agents.</p>
+             <a href="#" class="text-xs font-bold border-b border-gray-300 pb-0.5 hover:border-gray-900 transition-colors">Join The Community -></a>
         </div>
     </div>
 
